@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/glightbox.min.css">
+    <title>Grid Gallery</title>
+</head>
+<body>
+    <header>
+        <nav class="header-nav">
+            <h1 class="logo"><a href="index.html">Grid Galleries</a></h1>
+            <ul class="nav-menue">
+                <li class="nav-item"><a href="index.html">Auto Fit</a></li>
+                <li class="nav-item"><a href="grid-span.html">Grid Span</a></li>
+                <li class="nav-item"><a href="lightbox.html">Lightbox</a></li>
+                <li class="nav-item"><a href="lightbox-caption.html">Lightbox Caption</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="gallery-page">
+        <h1>Lightbox Caption Gallery</h1>
+        <section class="gallery-span">
+            <div class="gallery-item w-2 h-2"><a href="img/IMG 1.JPG" class="glightbox" data-glightbox="title: My title; description: this is the slide description; descPosition: right;"><img src="img/IMG 1.JPG" alt="Image taken that reminds me of home." class="gallery-img"></a></div>
+            <div class="gallery-item"><a href="img/IMG 2.JPG" class="glightbox" data-glightbox="title: My title; description: this is the slide description; descPosition: right;"><img src="img/IMG 2.JPG" alt="Image taken that reminds me of home." class="gallery-img"></a></div>
+            <div class="gallery-item h-3"><a href="img/IMG 3.JPG" class="glightbox" data-glightbox="title: My title; description: this is the slide description; descPosition: right;"><img src="img/IMG 3.JPG" alt="Image taken that reminds me of home." class="gallery-img"></a></div>
+            <div class="gallery-item w-4 h-1"><a href="img/IMG 4.JPG" class="glightbox" data-glightbox="title: My title; description: this is the slide description; descPosition: right;"><img src="img/IMG 4.JPG" alt="Image taken that reminds me of home." class="gallery-img"></a></div>
+            <div class="gallery-item"><a href="img/IMG 5.JPG" class="glightbox" data-glightbox="title: My title; description: this is the slide description; descPosition: right;"><img src="img/IMG 5.JPG" alt="Image taken that reminds me of home." class="gallery-img"></a></div>
+            <div class="gallery-item h-5"><a href="img/IMG 6.JPG" class="glightbox" data-glightbox="title: My title; description: this is the slide description; descPosition: right;"><img src="img/IMG 6.JPG" alt="Image taken that reminds me of home." class="gallery-img"></a></div>
+            <div class="gallery-item"><a href="img/IMG 7.JPG" class="glightbox" data-glightbox="title: My title; description: this is the slide description; descPosition: right;"><img src="img/IMG 7.JPG" alt="Image taken that reminds me of home." class="gallery-img"></a></div>
+        </section>
+    </main>
+    <script src="js/glightbox.min.js"></script>
+    <script type="text/javascript">
+const lightbox = GLightbox({ loop: true });
+</script>
+</body>
+</html>
