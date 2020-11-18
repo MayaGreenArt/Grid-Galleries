@@ -149,7 +149,7 @@ img {
 }
 
 /*Begin Media Queries for Large Screens*/
-@media (min-wdth: 600px) {
+@media (min-width: 600px) {
   .header-nav {
     line-height: 1.5rem;
   }
